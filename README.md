@@ -6,39 +6,41 @@ Web application using bleeding edge technologies
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
-git clone https://github.com/SyedAman/ExpressApp.git
-cd expressApp
-npm install
-DEBUG=expressApp:* npm start
-
 ### Prerequisities
 
 What things you need to install the software and how to install them
 
 global dependencies:
-git (obviously :P)
-nodeJS + node package manager (comes bundled)
-npm install -g npm
-npm install -g express-generator
+[Git] (https://git-scm.com/)
+[NodeJS] (https://nodejs.org/en/)
+[NPM - Node Package Manager] ((https://nodejs.org/en/))
+TypeScript
+Express-Generator
 
 ```
-Give examples
+npm install -g npm
+npm install -g express-generator
+npm install -g typescript
 ```
 
 ### Installing
 
 A step by step series of examples that tell you have to get a development env running
 
-Stay what the step will be
-
+Clone repository
 ```
-Give the example
+git clone https://github.com/SyedAman/ExpressApp.git
 ```
 
-And repeat
-
+Install dependent node modules
 ```
-until finished
+cd expressApp
+npm install
+```
+
+Start web server
+```
+DEBUG=expressApp:* npm start
 ```
 
 End with an example of getting some data out of the system or using it for a little demo
