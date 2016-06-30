@@ -10,16 +10,13 @@ These instructions will get you a copy of the project up and running on your loc
 
 What things and global dependencies you will need to install the software and how to install them
 
-[Git](https://git-scm.com/)
+* [Git](https://git-scm.com/)
+* [NodeJS](https://nodejs.org/en/)
+* [NPM](https://nodejs.org/en/)
+* TypeScript
+* Express-Generator
 
-[NodeJS](https://nodejs.org/en/)
-
-[NPM - Node Package Manager](https://nodejs.org/en/)
-
-TypeScript
-
-Express-Generator
-
+######Install global dependencies
 ```
 npm install -g npm
 npm install -g express-generator
@@ -28,42 +25,25 @@ npm install -g typescript
 
 ### Installing
 
-A step by step series of examples that tell you have to get a development env running
+How to get a development environment running
 
-**Clone repository**
+######Clone repository & branch
 ```
 git clone https://github.com/SyedAman/ExpressApp.git
+git branch <name-of-your-branch>
 ```
 
-**Install dependent node modules**
+######Install dependent node modules
 ```
 cd expressApp
 npm install
 ```
 
-End with an example of getting some data out of the system or using it for a little demo
-
 ## Running the tests
 
-**Start web server**
+######Start web server
 ```
 DEBUG=expressApp:* npm start
-```
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
 ```
 
 ## Deployment
@@ -87,14 +67,14 @@ Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduc
 
 We use [SemVer](http://semver.org/) for versioning semantics. For the versions available, see the [tags on this repository](https://github.com/SyedAman/ExpressApp/tags). 
 
-*
+
 Given a version number MAJOR.MINOR.PATCH, increment the:
 
 MAJOR version when you make incompatible API changes,
 MINOR version when you add functionality in a backwards-compatible manner, and
 PATCH version when you make backwards-compatible bug fixes.
 Additional labels for pre-release and build metadata are available as extensions to the MAJOR.MINOR.PATCH format.
-*
+
 ## Authors
 
 * **Syed Aman** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
