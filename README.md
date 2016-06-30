@@ -38,6 +38,19 @@ git branch <name-of-your-branch>
 cd expressApp
 npm install
 ```
+this will install all project specific packages to get everything running
+
+######Install optional node modules
+
+```
+npm install -g nodemon
+```
+Nodemon is a useful tool that tracks file changes and automatically restarts a web server after a change
+in order to save us from the tedious tasks of constantly restarting the web server after updating the source
+```
+nodemon views/app.js
+```
+This watches app.js for changes and restarts web server automatically
 
 ## Running the tests
 
