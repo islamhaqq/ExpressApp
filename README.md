@@ -8,13 +8,16 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisities
 
-What things you need to install the software and how to install them
+What things and global dependencies you will need to install the software and how to install them
 
-global dependencies:
-[Git] (https://git-scm.com/)
-[NodeJS] (https://nodejs.org/en/)
-[NPM - Node Package Manager] ((https://nodejs.org/en/))
+[Git](https://git-scm.com/)
+
+[NodeJS](https://nodejs.org/en/)
+
+[NPM - Node Package Manager](https://nodejs.org/en/)
+
 TypeScript
+
 Express-Generator
 
 ```
@@ -27,27 +30,25 @@ npm install -g typescript
 
 A step by step series of examples that tell you have to get a development env running
 
-Clone repository
+**Clone repository**
 ```
 git clone https://github.com/SyedAman/ExpressApp.git
 ```
 
-Install dependent node modules
+**Install dependent node modules**
 ```
 cd expressApp
 npm install
-```
-
-Start web server
-```
-DEBUG=expressApp:* npm start
 ```
 
 End with an example of getting some data out of the system or using it for a little demo
 
 ## Running the tests
 
-Explain how to run the automated tests for this system
+**Start web server**
+```
+DEBUG=expressApp:* npm start
+```
 
 ### Break down into end to end tests
 
@@ -71,9 +72,12 @@ Add additional notes about how to deploy this on a live system
 
 ## Built With
 
-* Dropwizard - Bla bla bla
-* Maven - Maybe
-* Atom - ergaerga
+*See package.json for packages used*
+
+* NodeJS & NPM
+* Express.js
+* Git & GitHub
+* Visual Studio Code
 
 ## Contributing
 
@@ -81,13 +85,21 @@ Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduc
 
 ## Versioning
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+We use [SemVer](http://semver.org/) for versioning semantics. For the versions available, see the [tags on this repository](https://github.com/SyedAman/ExpressApp/tags). 
 
+*
+Given a version number MAJOR.MINOR.PATCH, increment the:
+
+MAJOR version when you make incompatible API changes,
+MINOR version when you add functionality in a backwards-compatible manner, and
+PATCH version when you make backwards-compatible bug fixes.
+Additional labels for pre-release and build metadata are available as extensions to the MAJOR.MINOR.PATCH format.
+*
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **Syed Aman** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/SyedAman/ExpressApp/contributors) who participated in this project.
 
 ## License
 
