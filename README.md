@@ -8,40 +8,21 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisities
 
-What things and global dependencies you will need to install the software and how to install them
+What global dependencies and things you will need to install the software and how to install them
 
 * [Git](https://git-scm.com/)
 * [NodeJS](https://nodejs.org/en/)
 * [NPM](https://nodejs.org/en/)
 * TypeScript
-* Express-Generator
 
 ######Install global dependencies
 ```
 npm install -g npm
-npm install -g express-generator
 npm install -g typescript
 ```
 
-### Installing
-
-How to get a development environment running
-
-######Clone repository & branch
-```
-git clone https://github.com/SyedAman/ExpressApp.git
-git branch <name-of-your-branch>
-```
-
-######Install dependent node modules
-```
-cd expressApp
-npm install
-```
-this will install all project specific packages to get everything running
-
 ######Install optional node modules
-
+Install nodemon for ease of life
 ```
 npm install -g nodemon
 ```
@@ -52,16 +33,39 @@ nodemon views/app.js
 ```
 This watches app.js for changes and restarts web server automatically
 
-## Running the tests
+*NOTE: express-generator was used globally to generate scaffolding files to build the express app quickly but it isn't required to get this app running*
 
-######Start web server
+### Installing
+
+How to get a development environment running
+
+######Clone repository & branch
+Get your own copy and make changes
 ```
-DEBUG=expressApp:* npm start
+git clone https://github.com/SyedAman/ExpressApp.git
+git branch <name-of-your-branch>
+```
+
+######Install dependent node modules
+install all project specific packages to get everything running
+```
+cd expressApp
+npm install
 ```
 
 ## Deployment
 
-Add additional notes about how to deploy this on a live system
+######Start web server
+Run the express web server
+```
+DEBUG=expressApp:* npm start
+```
+
+######Use web server
+Access the web server on your browser
+```
+localhost:3000
+```
 
 ## Built With
 
@@ -69,6 +73,9 @@ Add additional notes about how to deploy this on a live system
 
 * NodeJS & NPM
 * Express.js
+* HJS
+* CSS
+* HTML
 * Git & GitHub
 * Visual Studio Code
 
@@ -83,14 +90,14 @@ We use [SemVer](http://semver.org/) for versioning semantics. For the versions a
 
 Given a version number MAJOR.MINOR.PATCH, increment the:
 
-MAJOR version when you make incompatible API changes,
-MINOR version when you add functionality in a backwards-compatible manner, and
-PATCH version when you make backwards-compatible bug fixes.
-Additional labels for pre-release and build metadata are available as extensions to the MAJOR.MINOR.PATCH format.
+* MAJOR version when you make incompatible API changes,
+* MINOR version when you add functionality in a backwards-compatible manner, and
+* PATCH version when you make backwards-compatible bug fixes.
+* Additional labels for pre-release and build metadata are available as extensions to the MAJOR.MINOR.PATCH format.
 
 ## Authors
 
-* **Syed Aman** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **Syed Aman** - *Initial work* - [Profile](https://github.com/SyedAman)
 
 See also the list of [contributors](https://github.com/SyedAman/ExpressApp/contributors) who participated in this project.
 
@@ -99,7 +106,5 @@ See also the list of [contributors](https://github.com/SyedAman/ExpressApp/contr
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
 ## Acknowledgments
-
-* Hat tip to anyone who's code was used
-* Inspiration
-* etc
+Hat tip to:
+* Will Stern for his web development guides in using NodeJS and Express. Check out his YouTube [channel](https://www.youtube.com/user/learncodeacademy)
