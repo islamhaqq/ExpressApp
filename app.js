@@ -11,3 +11,4 @@ app.listen(app.get('port'), console.log('Express started. Press CTRL + C to term
 app.disable('x-powered-by');
 app.engine('handlebars', handlebars.engine);
 app.set('view engine', handlebars);
+app.use(express.static(__dirname + '/public'));
