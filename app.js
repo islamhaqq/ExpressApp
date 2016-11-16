@@ -1,4 +1,5 @@
 var express = require('express');
+var handlebars = require('express-handlebars').create({defaultLayout:'main'});
 
 var app = express();
 
@@ -8,3 +9,5 @@ app.get('/', function(request, response){
 });
 app.listen(app.get('port'), console.log('Express started. Press CTRL + C to terminate'));
 app.disable('x-powered-by');
+app.engine('handlebars', handlebars.engine);
+app.set('view engine', handlebars);
