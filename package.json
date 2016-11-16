@@ -1,19 +1,12 @@
 {
-  "name": "expressApp",
+  "name": "express-app",
   "version": "0.0.0",
   "private": true,
   "scripts": {
     "start": "node ./bin/www"
   },
   "dependencies": {
-    "body-parser": "~1.15.1",
-    "cookie-parser": "~1.4.3",
-    "debug": "~2.2.0",
-    "express": "~4.13.4",
-    "hjs": "~0.0.6",
-    "less-middleware": "^2.1.0",
-    "morgan": "~1.7.0",
-    "serve-favicon": "~2.3.0",
-    "stylus": "0.54.5"
+    "express": "^4.14.0",
+    "express-handlebars": "^3.0.0"
   }
 }
