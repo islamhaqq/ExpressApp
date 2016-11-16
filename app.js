@@ -7,3 +7,4 @@ app.get('/', function(request, response){
     response.send('Express Works');
 });
 app.listen(app.get('port'), console.log('Express started. Press CTRL + C to terminate'));
+app.disable('x-powered-by');
